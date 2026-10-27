@@ -1,3 +1,5 @@
+# Real-Time Fraud Detection & MLOps Platform
+<img width="1913" height="1001" alt="dashboard4" src="https://github.com/user-attachments/assets/150cc684-d81a-4f8f-bbf6-4f481c990cf3" />
 ==> Data_source : https://www.kaggle.com/datasets/ealaxi/paysim1
 ==> I added a new column called tx_id to this dataset 
 For Transaction and outcome simulation , i used the test split X of this dataset with the tx_id and created an another csv with the Test split Y but with the tx_id for the outcome simulation
@@ -18,8 +20,6 @@ If you encounter errors:
   =>Check database connectivity and Kafka broker configuration.
   =>Confirm that the input files and trained model exist at the configured paths.
   =>Review the terminal output and service logs to identify the failing component.
-# Real-Time Fraud Detection & MLOps Platform
-<img width="1913" height="1001" alt="dashboard4" src="https://github.com/user-attachments/assets/150cc684-d81a-4f8f-bbf6-4f481c990cf3" />
 An end-to-end machine learning platform for detecting potentially fraudulent financial transactions in real time, monitoring inference and model performance, collecting delayed ground-truth outcomes, and retraining models through a champion–challenger evaluation workflow.
 The project combines event-driven data processing, machine learning inference, operational monitoring, cloud data storage, and automated model lifecycle management.
 ### Overview
