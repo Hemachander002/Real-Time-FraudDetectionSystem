@@ -8,7 +8,7 @@ For Transaction and outcome simulation , i used the test split X of this dataset
 4. run this command set MLFLOW_ALLOW_FILE_STORE=true in ur terminal before running the pipeline  
 5. place ur transactions simulator data and the outcomes for it in the paths accordingly
 6. once u train the initial model by running the pipeline (python -m fraud_pipeline.train) in the terminal
-7. if u wanna perform the nightly exportation in s3 bucket , u can add the export_labeldata.py script in the run_system.bat ( refer to the code used to run the other scripts in the batch file )
+7. if u wanna perform the nightly exportation in s3 bucket , u can add the export_labeldata.py script in the run_system.bat ( refer to the code used to run the other scripts in the bat file )
 8. run the run-system.bat to run the system
 9. Troubleshooting
 If you encounter errors:
