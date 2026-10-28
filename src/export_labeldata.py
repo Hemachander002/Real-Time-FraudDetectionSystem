@@ -18,8 +18,8 @@ DB_CONFIG = {
 }
 
 # S3 configuration
-S3_BUCKET = "fraud-detection-mlops-007"
-AWS_REGION = "ap-south-1"
+S3_BUCKET = "YOUR S3 BUCKET"
+AWS_REGION = "YOUR REGION"
 S3_PREFIX = "exports"
 
 # Local export directory
